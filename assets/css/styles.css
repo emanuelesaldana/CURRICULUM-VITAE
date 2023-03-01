@@ -1,0 +1,64 @@
+/* etiqueta HTML va directamente el nombre*/
+/* clases van con .*/
+/* ID van con "#" adelante*/
+/*
+.letra-negra{
+          filter: invert(1);
+          -webkit-filter: invert(1); 
+          -moz-filter: invert(1)
+      }
+*/
+.bg-wheat{
+    background-color:rgb(65, 107, 187);
+}
+
+
+.list-group{
+    --bs-list-group-border-color:transparent;
+    --bs-list-group-bg: transparent;
+}
+
+.fa-brands.fa-linkedin-in:hover {
+    --bs-text-opacity: 1;
+    color: black !important;
+}
+.fa-brands.fa-github:hover {
+    --bs-text-opacity: 1;
+    color: black !important;
+}
+.fa-brands.fa-facebook-f:hover {
+    --bs-text-opacity: 1;
+    color: black !important;
+}
+.fa-solid.fa-user-lock:hover {
+    --bs-text-opacity: 1;
+    color: black !important;
+}
+
+section.banner{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.9)
+    ), url(../img/fotojujuy2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    -msn-background-size: cover;
+    background-repeat: no-repeat;
+}
+h2.intro {
+    padding-top: 15%;
+    font-size: 2rem;
+}
+h1.intro{
+    font-size: 3rem;
+}
+h3.intro{
+    font-size: 1.5rem;
+}
+h4{
+    text-align: justify;
+}
