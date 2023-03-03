@@ -9,7 +9,7 @@
       }
 */
 .bg-wheat{
-    background-color:rgb(65, 107, 187);
+    background-color:rgb(65, 75, 95);
 }
 
 
@@ -18,22 +18,7 @@
     --bs-list-group-bg: transparent;
 }
 
-.fa-brands.fa-linkedin-in:hover {
-    --bs-text-opacity: 1;
-    color: black !important;
-}
-.fa-brands.fa-github:hover {
-    --bs-text-opacity: 1;
-    color: black !important;
-}
-.fa-brands.fa-facebook-f:hover {
-    --bs-text-opacity: 1;
-    color: black !important;
-}
-.fa-solid.fa-user-lock:hover {
-    --bs-text-opacity: 1;
-    color: black !important;
-}
+
 
 section.banner{
     background-image: linear-gradient(
@@ -48,17 +33,28 @@ section.banner{
     -moz-background-size: cover;
     -msn-background-size: cover;
     background-repeat: no-repeat;
+    
 }
 h2.intro {
     padding-top: 15%;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 h1.intro{
     font-size: 3rem;
 }
 h3.intro{
     font-size: 1.5rem;
+    
 }
 h4{
     text-align: justify;
+    
+}
+img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+.educacion{
+    color: white;
 }
